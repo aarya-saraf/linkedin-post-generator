@@ -3,7 +3,7 @@ import streamlit as st
 
 llm = ChatGroq(
     groq_api_key=st.secrets["GROQ_API_KEY"],
-    model_name="llama-3.3-70b-versatile"
+    model_name="openai/gpt-oss-120b"
 )
 
 if __name__ == "__main__":
